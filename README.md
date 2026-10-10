@@ -3,7 +3,7 @@
 
 **Developed by:** ✨ Ayesha Ahmed ✨  
 **Status:** 🟢 System Online | **Architecture:** Local Offline-First Pipeline  
-**Live Dashboard:** [🚀 View Karachi AQI Dashboard](https://aqi-prediction-nohopsworks-g8pfyyfwefpzkmxx4lm5su.streamlit.app/)  
+**Live Dashboard:** [🚀 View Karachi AQI Dashboard](https://aqi-prediction-nohopsworks-kdvkbnnitpeqihagrpz98k.streamlit.app/)  
 
 ---
 
