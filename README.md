@@ -1,10 +1,9 @@
-```markdown
 # 🌍 Karachi AQI Intelligence System
 ### **Comparative AI Forecasting: Statistical vs. Deep Learning Approaches**
 
 **Developed by:** ✨ Ayesha Ahmed ✨  
 **Status:** 🟢 System Online | **Architecture:** Local Offline-First Pipeline  
-**Live Dashboard:** [🚀 View Karachi AQI Dashboard](https://aqi-prediction-euemsshkknonwf3vym8fwv.streamlit.app/)  
+**Live Dashboard:** [🚀 View Karachi AQI Dashboard](https://aqi-prediction-nohopsworks-g8pfyyfwefpzkmxx4lm5su.streamlit.app/)  
 
 ---
 
@@ -14,11 +13,11 @@ This repository hosts a production-grade machine learning pipeline designed to p
 ---
 
 ## 🔬 Advanced Analytics Features
-This system transcends basic prediction by implementing a robust data science framework:
+This system implements a robust data science framework designed for multi-step atmospheric forecasting:
 
 * **Exploratory Data Analysis (EDA):** Interactive multivariate correlation studies analyzing the interplay between humidity, atmospheric pressure, temperature, and AQI levels.
 * **Model Explainability:** Integrated feature importance tracking and SHAP integration to explain AI decision-making (e.g., how wind speed and particulate concentrations affect forecasts).
-* **Public Health Alerts:** An automated hazard detection system that triggers critical warnings for AQI spikes exceeding health thresholds.
+* **Public Health Alerts:** An automated hazard detection system that triggers critical warnings for AQI spikes exceeding health safety thresholds.
 * **Multi-Model Support:** Architecture designed to evaluate and support multiple regression algorithms (Ridge, Random Forest, Gradient Boosting, and ANNs) via a decoupled local inference pipeline.
 
 ---
@@ -50,28 +49,14 @@ The project is organized into four primary local pipelines:
 
 ---
 
-# 🚀 Installation & Setup
+## 🚀 Installation & Setup
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/AyeshaAhmed-cs/AQI-Prediction](https://github.com/AyeshaAhmed-cs/AQI-Prediction)
-cd AQI-Prediction
-
-```
-
-### 2. Install dependencies
-
-```bash
-pip install -r requirements.txt
-
-```
-
-### 3. Run the Local Pipeline Sequence
-
-Execute the scripts in order to populate data, train models locally, and launch the UI:
-
-```bash
-# Step 1: Generate historical baseline data
+git clone [https://github.com/AyeshaAhmed-cs/aqi_prediction_-no_hopsworks](https://github.com/AyeshaAhmed-cs/aqi_prediction_-no_hopsworks)
+cd aqi_prediction_-no_hopsworks
+2. Install dependenciesBashpip install -r requirements.txt
+3. Run the Local Pipeline SequenceExecute the scripts in order to populate data, train models locally, and launch the UI:Bash# Step 1: Generate historical baseline data
 python backfill_pipeline/backfill_historical.py
 
 # Step 2: Train models and save artifacts locally
@@ -79,23 +64,4 @@ python training_pipeline/train_model.py
 
 # Step 3: Launch the Streamlit dashboard
 streamlit run inference_pipeline/app.py
-
-```
-
----
-
-## 🤖 Model Benchmark & Selection
-
-The system automatically compares multiple algorithms and selects the top-performing model based on $R^2$ Score and MAE.
-Evaluated models include:
-
-* Ridge Regression
-* Random Forest Regression
-* Gradient Boosting
-* Artificial Neural Networks (ANNs)
-
-> *"Providing data-driven clarity for a cleaner, safer Karachi."*
-
-```
-
-```
+🤖 Model Benchmark & SelectionThe system automatically compares multiple algorithms during training and selects the top-performing model based on $R^2$ Score and MAE.Evaluated models include:Ridge RegressionRandom Forest RegressionGradient BoostingArtificial Neural Networks (ANNs)"Providing data-driven clarity for a cleaner, safer Karachi."
